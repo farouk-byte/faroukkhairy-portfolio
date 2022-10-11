@@ -1,0 +1,156 @@
+.summry a {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: rgba(228, 228, 228, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4d4d4d;
+  transition: 0.3s;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.summry p {
+  padding-right: 5px;
+}
+.skillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.skillsWrapper .skillBox {
+  width: 30%;
+  margin: 10px 0;
+}
+.skillsWrapper .skillBox h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.skillsWrapper .skillBox .progressBar {
+  width: 100%;
+  background-color: #dbdbdb;
+  border-radius: 50px;
+}
+.skillsWrapper .skillBox .progressBar > div {
+  background-image: linear-gradient(to bottom right, #e7004d59, #ffffff4b);
+  border-radius: 50px;
+  padding: 0 10px;
+  color: #6a4f6e;
+  font-weight: bold;
+  font-size: 14px;
+}
+.skillsWrapper .skillBox .progressBar .progressDoneHTML,
+.skillsWrapper .skillBox .progressBar .progressDoneCSS {
+  width: 95%;
+}
+.skillsWrapper .skillBox .progressBar .progressDoneJs,
+.skillsWrapper .skillBox .progressBar .progressDoneFp {
+  width: 80%;
+}
+.skillsWrapper .skillBox .progressBar .progressDoneJq,
+.skillsWrapper .skillBox .progressBar .progressDoneRj {
+  width: 60%;
+}
+.skillsWrapper .skillBox .progressBar .progressDoneBs {
+  width: 50%;
+}
+.skillsWrapper .skillBox .progressBar .progressDonePs,
+.skillsWrapper .skillBox .progressBar .progressDoneAi {
+  width: 95%;
+}
+.skillsWrapper .skillBox .progressBar .progressDoneSl,
+.skillsWrapper .skillBox .progressBar .progressDoneSb {
+  width: 70%;
+}
+.timeLineWrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  padding: 5px;
+}
+.timeLineWrapper ul {
+  list-style: outside;
+  padding-left: 36px;
+  flex-direction: column;
+}
+.timeLineWrapper ul li {
+  width: unset;
+  margin: unset;
+}
+.timeLineWrapper .timeLineBox {
+  width: 48%;
+  margin: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+  padding: 0 10px 10px 0;
+}
+.timeLineWrapper .timeLineBox > p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+.timeLineWrapper .timeLineBox > p:first-child span {
+  font-size: 17px;
+  color: #5c5c5c;
+}
+.timeLineWrapper .timeLineBox > p:nth-child(2) {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0 !important;
+  padding: 2px 10px;
+  background-color: #3d3d3d;
+  width: fit-content;
+  color: #dbdbdb;
+  border-radius: 50px;
+}
+/************************** Media Query *************************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 306px) {
+  .summry a {
+    padding: 5px;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .about h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 576px) {
+  .summry p {
+    text-align: center;
+  }
+  .skillsWrapper .skillBox {
+    width: 97%;
+    margin: 10px 0;
+  }
+  .timeLineWrapper .timeLineBox {
+    width: 97%;
+    
+    padding: 0 10px 10px 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+}

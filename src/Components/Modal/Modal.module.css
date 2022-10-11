@@ -1,0 +1,35 @@
+.BackDrop {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+}
+.Overlay {
+  z-index: 1001;
+  overflow-y: auto;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  background-color: #fff;
+  padding: 10px;
+}
+.OverlayInner {
+  padding: 30px 10px 5px;
+  min-height: 100%;
+  border: 2px solid rgb(34, 34, 34);
+  position: relative;
+}
+.clsBtn {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

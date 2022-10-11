@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+ul{
+  padding:0;
+}
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.main h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+.main h2 {
+  font-size: 28px;
+}
+.inner {
+  height: 100%;
+  overflow-y: auto;
+  padding: 7px 3px 7px 0;
+}
+hr {
+  height: 2px;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  opacity: 0.5;
+}
+@media (max-width: 306px) {
+  .main h1 {
+    font-size: 28px;
+  }
+}

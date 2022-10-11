@@ -1,0 +1,40 @@
+.form table {
+  width: 100%;
+}
+.form label {
+  font-size: 22px;
+}
+.form input {
+  width: 90%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.form textarea {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.form table td {
+  padding: 5px 0;
+}
+.form table tr:last-of-type td {
+  margin: auto;
+}
+.form input:not(input[type="submit"]) {
+  padding: 10px;
+}
+.form input[type="submit"] {
+  width: fit-content;
+  padding: 7px 20px;
+}
+@media (max-width: 576px) {
+    .form table tr{
+        display: flex;
+        flex-direction: column;
+    }
+}

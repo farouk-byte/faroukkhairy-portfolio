@@ -1,0 +1,55 @@
+.row > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+
+}
+.box {
+  width: 27%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.links {
+  margin: 20px 0 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.links a {
+  background-color: rgba(68, 68, 68, 0.3);
+  color: #e4e4e4;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+/************************** Media Query *************************/
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .box {
+    width: 100% !important;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .box {
+    width: 47%;
+  }
+  .links {
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+}
